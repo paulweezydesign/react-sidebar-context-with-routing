@@ -1,15 +1,22 @@
+import { Link } from 'react-router-dom';
+import kittens from '../data';
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+
 const Kittens = () => {
   return (
-    <section className="">
-      <main className="">
-        <h1 className="text-7xl font-black">Kittens</h1>
-        <div className="">
-          <NavLink to="/kittens/filaberta">Filaberta</NavLink>
-        </div>
-      </main>
+    <section className="section">
+      <div className="products">
+        {kittens.map((kitten) => {
+          return (
+            <article key={kitten.id}>
+              <h5>{kitten.name}</h5>
+              <Link to={`/kittens/${kitten.id}`}>more info</Link>
+            </article>
+          );
+        })}
+      </div>
     </section>
   );
 };
+
 export default Kittens;

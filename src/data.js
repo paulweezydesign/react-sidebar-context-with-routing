@@ -71,3 +71,36 @@ export const social = [
     icon: <FaSketch />,
   },
 ];
+
+const kittens = [
+  {
+    id: 'recZkNf2kwmdBcqd0',
+    name: 'Filaberta',
+    image: 'http://placekitten.com/200/300',
+  },
+  {
+    id: 'recEHmzvupvT8ZONH',
+    name: 'Garfield',
+
+    image: 'http://placekitten.com/200/300',
+  },
+  {
+    id: 'rec5NBwZ5zCD9nfF0',
+    name: 'Pancake',
+
+    image: 'http://placekitten.com/200/300',
+  },
+  {
+    id: 'recd1jIVIEChmiwhe',
+    name: 'Rocket',
+
+    image: 'http://placekitten.com/200/300',
+  },
+  {
+    id: 'recoM2MyHJGHLVi5l',
+    name: 'Fluffy',
+    image: 'http://placekitten.com/200/300',
+  },
+];
+
+export default kittens;
