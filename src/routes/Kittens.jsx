@@ -5,7 +5,7 @@ import React from 'react';
 const Kittens = () => {
   return (
     <section className="flex justify-center mx-auto">
-      <div className="flex flex-wrap flex-col sm:flex-row gap-8">
+      <div className="flex flex-wrap flex-col sm:flex-row gap-y-10 gap-x-4">
         {kittens.map((kitten) => {
           return (
             <article
