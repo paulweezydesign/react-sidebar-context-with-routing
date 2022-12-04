@@ -4,12 +4,12 @@ import React from 'react';
 
 const Kittens = () => {
   return (
-    <section className="flex justify-center mx-auto">
-      <div className="flex flex-wrap flex-col sm:flex-row gap-y-10 gap-x-4">
+    <section className="flex justify-center mx-auto px-8">
+      <div className="flex flex-wrap flex-col sm:flex-row gap-y-10 gap-x-4 mt-6">
         {kittens.map((kitten) => {
           return (
             <article
-              className="w-[200px] h-[200px] rounded shadow-lg relative"
+              className="w-[200px] h-[200px] rounded shadow-lg relative mt-6"
               key={kitten.id}
             >
               <img
