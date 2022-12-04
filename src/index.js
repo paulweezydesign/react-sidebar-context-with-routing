@@ -29,7 +29,6 @@ ReactDOM.render(
             <Route path="/contact" element={<Contact />} />
           </Route>
         </Routes>
-        <App />
       </AppProvider>
     </BrowserRouter>
   </React.StrictMode>,
