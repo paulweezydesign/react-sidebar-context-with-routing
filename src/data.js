@@ -101,6 +101,62 @@ const kittens = [
     name: 'Fluffy',
     image: 'http://placekitten.com/200/300',
   },
+  {
+    id: 'recZkNf2kwmdBcqd0',
+    name: 'Bean',
+    image: 'http://placekitten.com/200/300',
+  },
+  {
+    id: 'recEHmzvupvT8ZONH',
+    name: 'Fat Head',
+
+    image: 'http://placekitten.com/200/300',
+  },
+  {
+    id: 'rec5NBwZ5zCD9nfF0',
+    name: 'Mean Kitty ',
+
+    image: 'http://placekitten.com/200/300',
+  },
+  {
+    id: 'recd1jIVIEChmiwhe',
+    name: 'Nice Kitty',
+
+    image: 'http://placekitten.com/200/300',
+  },
+  {
+    id: 'recoM2MyHJGHLVi5l',
+    name: 'Baby Bean',
+    image: 'http://placekitten.com/200/300',
+  },
+  {
+    id: 'recZkNf2kwmdBcqd0',
+    name: 'Baby Bean jr',
+    image: 'http://placekitten.com/200/300',
+  },
+  {
+    id: 'recEHmzvupvT8ZONH',
+    name: 'Baby Bean III',
+
+    image: 'http://placekitten.com/200/300',
+  },
+  {
+    id: 'rec5NBwZ5zCD9nfF0',
+    name: 'Baby Bean tha 4th',
+
+    image: 'http://placekitten.com/200/300',
+  },
+  {
+    id: 'recd1jIVIEChmiwhe',
+    name: 'Baby Bean numero 5',
+
+    image: 'http://placekitten.com/200/300',
+  },
+  {
+    id: 'recoM2MyHJGHLVi5l',
+    name: 'Fluffy',
+    image: 'http://placekitten.com/200/300',
+  },
 ];
 
 export default kittens;

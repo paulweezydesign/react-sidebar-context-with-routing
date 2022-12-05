@@ -9,11 +9,11 @@ const Kittens = () => {
         {kittens.map((kitten) => {
           return (
             <article
-              className="w-[200px] h-[200px] rounded shadow-lg relative mt-6"
+              className="w-[200px] h-[275px] rounded shadow-lg relative mt-6 shadow-lg shadow-black/50 bg-slate-100"
               key={kitten.id}
             >
               <img
-                className="w-[200px] h-[200px] cover rounded"
+                className="w-[200px] h-[275px] contain rounded-t"
                 src={kitten.image}
                 alt={kitten.name}
               />
